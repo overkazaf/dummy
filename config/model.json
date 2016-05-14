@@ -1,0 +1,20 @@
+{
+	"target" : {
+		"ID" : "Number,8,Incremental",
+		"Name" : "String,20,NameDict",
+		"Age" : "Number,3,AgeLimit(1:130)",
+		"Friends" : "Array,10,modela",
+		"Date" : "Date,17,Format(yyyyMMDD hh:mm:ss)",
+		"Info" : "Object:modelb"
+	},
+	"refs" : {
+		"modela" : {
+			"Name" : "String,9,RandNumber",
+			"Phone" : "Number,11,RandNumber"
+		},
+		"modelb" : {
+			"job" : "String,14,CareerDict",
+			"level" : "String,4,LevelDict"
+		}
+	}
+}
