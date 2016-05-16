@@ -1,0 +1,23 @@
+{
+    "target" : 
+        {
+            "code": "Number,HTTPResponseCode$",
+            "data": "Array,modela$20",
+            "msg": "String,HTTPResponseCodeMessage$"
+        },
+    "refs" : {
+        "modela" : {
+            "id": "Number,Incremental$2",
+            "name": "String,Position$20",
+            "smoke": "Boolean,Smoke$",
+            "parentId": "Number,RandID$2",
+            "depth": "Number,FixedNumber$2",
+            "childList": "Array,modelb$3"
+        },
+        "modelb" : {
+            "id": "Number,Incremental$2",
+            "name": "String,Position$20",
+            "QQ": "Number,QQ$4,12"
+        }
+    }
+}
